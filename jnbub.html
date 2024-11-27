@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankieta o sporcie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .submit-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ankieta o sporcie</h1>
+    <p>Odpowiedz na poniższe pytania dotyczące sportu:</p>
+    <form action="#" method="post">
+        <!-- Pytania -->
+        <div class="question">
+            <label>1. Jaki jest Twój ulubiony sport?</label><br>
+            <input type="text" name="q1">
+        </div>
+        <div class="question">
+            <label>2. Czy uprawiasz regularnie sport? (tak/nie)</label><br>
+            <input type="text" name="q2">
+        </div>
+        <div class="question">
+            <label>3. Ile razy w tygodniu ćwiczysz?</label><br>
+            <input type="number" name="q3" min="0" max="7">
+        </div>
+        <div class="question">
+            <label>4. Jaki sport chciałbyś spróbować?</label><br>
+            <input type="text" name="q4">
+        </div>
+        <div class="question">
+            <label>5. Kto jest Twoim ulubionym sportowcem?</label><br>
+            <input type="text" name="q5">
+        </div>
+        <div class="question">
+            <label>6. Czy oglądasz mecze piłki nożnej? (tak/nie)</label><br>
+            <input type="text" name="q6">
+        </div>
+        <div class="question">
+            <label>7. Jaką drużynę sportową wspierasz?</label><br>
+            <input type="text" name="q7">
+        </div>
+        <div class="question">
+            <label>8. Czy kiedykolwiek uczestniczyłeś w zawodach sportowych? (tak/nie)</label><br>
+            <input type="text" name="q8">
+        </div>
+        <div class="question">
+            <label>9. Jaki sport uważasz za najbardziej wymagający fizycznie?</label><br>
+            <input type="text" name="q9">
+        </div>
+        <div class="question">
+            <label>10. Czy lubisz bieganie? (tak/nie)</label><br>
+            <input type="text" name="q10">
+        </div>
+        <div class="question">
+            <label>11. Czy lubisz sporty wodne? (tak/nie)</label><br>
+            <input type="text" name="q11">
+        </div>
+        <div class="question">
+            <label>12. Jaki sport jest Twoim zdaniem najbardziej widowiskowy?</label><br>
+            <input type="text" name="q12">
+        </div>
+        <div class="question">
+            <label>13. Czy korzystasz z siłowni? (tak/nie)</label><br>
+            <input type="text" name="q13">
+        </div>
+        <div class="question">
+            <label>14. Czy interesujesz się e-sportem? (tak/nie)</label><br>
+            <input type="text" name="q14">
+        </div>
+        <div class="question">
+            <label>15. Jaki sport według Ciebie najlepiej rozwija kondycję?</label><br>
+            <input type="text" name="q15">
+        </div>
+        <div class="question">
+            <label>16. Czy posiadasz ulubiony sport zimowy? Jeśli tak, to jaki?</label><br>
+            <input type="text" name="q16">
+        </div>
+        <div class="question">
+            <label>17. Czy oglądasz igrzyska olimpijskie? (tak/nie)</label><br>
+            <input type="text" name="q17">
+        </div>
+        <div class="question">
+            <label>18. Czy uważasz, że sporty drużynowe są ciekawsze od indywidualnych?</label><br>
+            <input type="text" name="q18">
+        </div>
+        <div class="question">
+            <label>19. Jaki sport jest najbardziej popularny w Twoim kraju?</label><br>
+            <input type="text" name="q19">
+        </div>
+        <div class="question">
+            <label>20. Czy próbowałeś kiedyś sztuk walki? (tak/nie)</label><br>
+            <input type="text" name="q20">
+        </div>
+        <div class="question">
+            <label>21. Czy kiedykolwiek grałeś w tenisa? (tak/nie)</label><br>
+            <input type="text" name="q21">
+        </div>
+        <div class="question">
+            <label>22. Czy wolisz sporty w pomieszczeniach czy na świeżym powietrzu?</label><br>
+            <input type="text" name="q22">
+        </div>
+        <div class="question">
+            <label>23. Czy uważasz, że sport pomaga w relaksie?</label><br>
+            <input type="text" name="q23">
+        </div>
+        <div class="question">
+            <label>24. Czy uczestniczysz w maratonach lub biegach masowych?</label><br>
+            <input type="text" name="q24">
+        </div>
+        <div class="question">
+            <label>25. Jaka jest Twoja ulubiona aktywność fizyczna w wolnym czasie?</label><br>
+            <input type="text" name="q25">
+        </div>
+        <div class="question">
+            <label>26. Czy masz ulubioną ligę sportową? Jeśli tak, to jaką?</label><br>
+            <input type="text" name="q26">
+        </div>
+        <div class="question">
+            <label>27. Czy regularnie oglądasz zawody sportowe w telewizji?</label><br>
+            <input type="text" name="q27">
+        </div>
+        <div class="question">
+            <label>28. Czy uważasz, że sport jest ważnym elementem zdrowego życia?</label><br>
+            <input type="text" name="q28">
+        </div>
+        <div class="question">
+            <label>29. Czy znasz zasady gry w koszykówkę?</label><br>
+            <input type="text" name="q29">
+        </div>
+        <div class="question">
+            <label>30. Czy uprawiasz sport z rodziną lub przyjaciółmi?</label><br>
+            <input type="text" name="q30">
+        </div>
+        <!-- Przycisk wyślij -->
+        <button class="submit-btn" type="submit">Wyślij ankietę</button>
+    </form>
+</body>
+</html>
